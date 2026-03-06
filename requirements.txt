@@ -1,4 +1,6 @@
 streamlit
 jira
-google-generativeai
 python-dotenv
+langchain-google-genai
+langchain-core
+pydantic
