@@ -1,6 +1,11 @@
 streamlit
 jira
+<<<<<<< HEAD
 python-dotenv
 langchain-google-genai
 langchain-core
 pydantic
+=======
+google-generativeai
+python-dotenv
+>>>>>>> cee748b03bc41dca2ab0de4127e854787b535a7f
