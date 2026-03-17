@@ -183,9 +183,9 @@ with st.sidebar:
         st.subheader("🔑 Jira Connection")
         env_ok = all([JIRA_SERVER, JIRA_EMAIL, JIRA_TOKEN, PROJECT_KEY])
         if env_ok:
-    st.success("✅ Loaded from .env")
-else:
-    st.warning("⚠️ .env incomplete")
+            st.success("✅ Loaded from .env")
+        else:
+            st.warning("⚠️ .env incomplete")
         jira_server  = st.text_input("Server URL",  value=JIRA_SERVER)
         jira_email   = st.text_input("Email",        value=JIRA_EMAIL)
         jira_token   = st.text_input("API Token",    value=JIRA_TOKEN, type="password")
